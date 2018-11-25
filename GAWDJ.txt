@@ -1,0 +1,19 @@
+Get A Web Developer Job
+BEM
+BEM is a coding concept that is en vogue
+all selectors should directly target elements with classes instead of relying on
+type selectors.
+because the above limits the cascading of styles it allows us to move elements around
+much more easily.
+blocks can be nested in other blocks
+you should identify patterns and then create single-responsibility blocks.
+bem makes the realationship between html and css clearer. you know how a css rule
+effects the html.
+
+(B)lock
+  - a chunk of code that is or can be reused more than once
+(E)lement
+  - a piece of a block that cannot be used outside of the block.
+(M)odifier
+  - a way to modify a block or element that changes their attributes.
+  an example of this is to enable or disable (grey out) a block (like a button).
